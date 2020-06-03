@@ -1,0 +1,22 @@
+PODS:
+  - expandable (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - expandable (from `.symlinks/plugins/expandable/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  expandable:
+    :path: ".symlinks/plugins/expandable/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  expandable: b4889ddf7728b7334cec01eba1ab5dc15d96fa89
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.9.1
