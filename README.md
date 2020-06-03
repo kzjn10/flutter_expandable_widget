@@ -33,4 +33,4 @@ Demonstrates how to use the expandable widget.
 <img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_01.png" width="320px" />
 <img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_02.png" width="320px" />
 <img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_03.png" width="320px" />
-<img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_04.png" width="320px" />
+
