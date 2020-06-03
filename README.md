@@ -1,14 +1,38 @@
-# expandable
+# Expandable example
 
-A new Flutter plugin.
+Demonstrates how to use the expandable widget.
 
-## Getting Started
+## How to Use
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+```
+ ExpandableWidget(
+               title: 'This is title',
+               child: Text('This is body'),
+             );
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+
+| Property        | Description                  | Default                              |
+|-----------------|------------------------------|--------------------------------------|
+| expand          | set default expanded content | false                                |
+| title           | title text                   | required                             |
+| child           | expanded content             | required                             |
+| prefix          | prefix widget                | null                                 |
+| suffix          | suffix widget                | null                                 |
+| margin          | widget margin                | EdgeInsets.all(10)                   |
+| padding         | widget padding               | EdgeInsets.all(10)                   |
+| headerPadding   | header padding               | EdgeInsets.all(10)                   |
+| decoration      | widget decoration            | null                                 |
+| titlePadding    | title padding                | EdgeInsets.symmetric(horizontal: 10) |
+| titleStyle      | title text style             | Theme.of(context).textTheme.title    |
+| suffixIconColor | suffix icon color            | Colors.black54                       |
+
+
+## Preview
+
+[![Video Demo](https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_01.png)](https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/demo_1.mp4 "Video Demo")
+
+<img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_01.png" width="320px" />
+<img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_02.png" width="320px" />
+<img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_03.png" width="320px" />
+<img src="https://raw.githubusercontent.com/kzjn10/flutter_expandable_widget/master/screenshot/flutter_04.png" width="320px" />
